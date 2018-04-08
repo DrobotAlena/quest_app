@@ -33,8 +33,8 @@ public class StartActivity extends AppCompatActivity {
 
     private void setClickListeners() {
         startButton.setOnClickListener(v -> QuestActivity.start(StartActivity.this));
+        selectButton.setOnClickListener(v -> GalleryActivity.start(StartActivity.this));
         // TODO: set listeners
         continueButton.setOnClickListener(null);
-        selectButton.setOnClickListener(null);
     }
 }
