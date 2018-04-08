@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import nsu.fit.questapp.R;
 
-public class MainActivity extends AppCompatActivity {
+public class StartActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_start);
     }
 }
