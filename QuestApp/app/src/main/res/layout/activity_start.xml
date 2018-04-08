@@ -11,7 +11,8 @@
         android:layout_height="@dimen/start_activity_logo_height"
         android:layout_marginTop="@dimen/start_activity_logo_margin_top"
         android:src="@drawable/quest_app_logo"
-        android:tint="@color/colorPrimary" />
+        android:tint="@color/colorPrimary"
+        tools:ignore="ContentDescription" />
 
     <LinearLayout
         style="@style/VerticalWrapping"

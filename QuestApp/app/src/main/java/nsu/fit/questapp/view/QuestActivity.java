@@ -6,7 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import nsu.fit.questapp.R;
+import nsu.fit.questapp.view.fragment.QuestFragment;
 
+/**
+ * Created by Alena Drobot
+ */
 public class QuestActivity extends AppCompatActivity {
 
     public static void start(Context context) {
@@ -17,5 +21,11 @@ public class QuestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quest);
+
+        // TODO: replace to method
+        QuestFragment questFragment = new QuestFragment();
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.quest_fragment, questFragment)
+                .commit();
     }
 }

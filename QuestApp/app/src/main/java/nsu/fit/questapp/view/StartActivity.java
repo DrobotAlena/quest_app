@@ -2,11 +2,13 @@ package nsu.fit.questapp.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import nsu.fit.questapp.R;
 
+/**
+ * Created by Alena Drobot
+ */
 public class StartActivity extends AppCompatActivity {
 
     private Button startButton;

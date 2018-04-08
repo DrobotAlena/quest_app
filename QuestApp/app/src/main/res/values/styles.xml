@@ -24,13 +24,29 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+    <!-- Button style -->
+    <style name="AppButton">
+        <item name="android:background">@drawable/selector_start_screen_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
     <!-- StartActivity -->
-    <style name="StartActivityButton">
+    <style name="StartActivityButton" parent="AppButton">
         <item name="android:layout_width">@dimen/start_activity_button_width</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/selector_start_screen_button</item>
         <item name="android:layout_marginBottom">@dimen/start_activity_button_margin_bottom</item>
-        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- QuestActivity -->
+    <style name="SandwichButton">
+        <item name="android:layout_width">@dimen/sandwich_size</item>
+        <item name="android:layout_height">@dimen/sandwich_size</item>
+        <item name="android:background">@drawable/selector_sandwich</item>
+    </style>
+
+    <style name="QuestButton" parent="AppButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
 </resources>
