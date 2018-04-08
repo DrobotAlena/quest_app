@@ -5,5 +5,7 @@
 
     <!-- StartActivity -->
     <string name="start_activity_start_button">Начать</string>
+    <string name="start_activity_continue_button">Продолжить</string>
+    <string name="start_activity_select_button">Выбрать квест</string>
 
 </resources>
