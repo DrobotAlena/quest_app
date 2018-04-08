@@ -26,7 +26,7 @@
 
     <!-- Button style -->
     <style name="AppButton">
-        <item name="android:background">@drawable/selector_start_screen_button</item>
+        <item name="android:background">@drawable/ic_button</item>
         <item name="android:textColor">@color/white</item>
     </style>
 
@@ -41,7 +41,7 @@
     <style name="SandwichButton">
         <item name="android:layout_width">@dimen/sandwich_size</item>
         <item name="android:layout_height">@dimen/sandwich_size</item>
-        <item name="android:background">@drawable/selector_sandwich</item>
+        <item name="android:background">@drawable/ic_sandwich</item>
     </style>
 
     <style name="QuestButton" parent="AppButton">

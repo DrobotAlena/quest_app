@@ -7,5 +7,9 @@
     <string name="start_activity_start_button">Начать</string>
     <string name="start_activity_continue_button">Продолжить</string>
     <string name="start_activity_select_button">Выбрать квест</string>
+    <string name="quest_sandwich_title">Выбери действие</string>
+    <string name="quest_sandwich_restart">Начать заново</string>
+    <string name="quest_sandwich_select">Выбрать другой квест</string>
+    <string name="quest_sandwich_exit">Завершить игру</string>
 
 </resources>
